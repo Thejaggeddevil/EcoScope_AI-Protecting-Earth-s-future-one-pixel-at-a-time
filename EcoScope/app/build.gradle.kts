@@ -81,6 +81,8 @@ dependencies {
 
     // 🔹 Image Loading
     implementation("io.coil-kt:coil-compose:2.5.0")
+    implementation(libs.play.services.location)
+    implementation(libs.androidx.datastore.core.android)
 
     // 🔹 Testing
     testImplementation("junit:junit:4.13.2")

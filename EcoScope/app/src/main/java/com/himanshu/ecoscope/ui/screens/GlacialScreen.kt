@@ -25,7 +25,7 @@ import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import coil.compose.AsyncImage
 import com.himanshu.ecoscope.network.AnalyzeResponse
-import com.himanshu.ecoscope.ui.viewmodel.DrainageViewModel
+import com.himanshu.ecoscope.ui.viewmodel.AppViewModel
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -35,7 +35,7 @@ fun GlacialLakesMonitoringScreen(
     onBackClick: () -> Unit = {}
 ) {
     val context = LocalContext.current
-    val viewModel: DrainageViewModel = viewModel()
+    val viewModel: AppViewModel = viewModel()
     //val response by viewModel.result.collectAsState()
     var response by remember { mutableStateOf<AnalyzeResponse?>(null) }
 

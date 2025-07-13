@@ -24,7 +24,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import coil.compose.AsyncImage
 import com.himanshu.ecoscope.network.AnalyzeResponse
-import com.himanshu.ecoscope.ui.viewmodel.DrainageViewModel
+import com.himanshu.ecoscope.ui.viewmodel.AppViewModel
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -37,7 +37,7 @@ fun RoadNetworksAnalysisScreen(
 ) {
     val context = LocalContext.current
     val dateFormat = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault())
-    val viewModel: DrainageViewModel = viewModel()
+    val viewModel: AppViewModel = viewModel()
    // val response by viewModel.result.collectAsState()
     var response by remember { mutableStateOf<AnalyzeResponse?>(null) }
 

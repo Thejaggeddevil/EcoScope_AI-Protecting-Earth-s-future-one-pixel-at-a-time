@@ -23,7 +23,7 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
-import com.himanshu.ecoscope.ui.viewmodel.DrainageViewModel
+import com.himanshu.ecoscope.ui.viewmodel.AppViewModel
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -33,7 +33,7 @@ fun DrainageSystemsMonitoringScreen(
     onBackClick: () -> Unit = {}
 ) {
     val context = LocalContext.current
-    val viewModel: DrainageViewModel = viewModel()
+    val viewModel: AppViewModel = viewModel()
 
     var location by remember { mutableStateOf("") }
     var beforeDate by remember { mutableStateOf("") }
