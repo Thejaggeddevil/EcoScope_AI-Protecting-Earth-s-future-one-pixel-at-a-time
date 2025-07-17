@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "339484832140",
+    "firebase_url": "https://ecoscope-154bd-default-rtdb.firebaseio.com",
+    "project_id": "ecoscope-154bd",
+    "storage_bucket": "ecoscope-154bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339484832140:android:5fd18c9ddb9b91f216a6a9",
+        "android_client_info": {
+          "package_name": "com.himanshu.ecoscope"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6M1rex6CAgHfM5POWhb4ib_6Jx0Xb2oE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339484832140:android:a7a43cdb90ec805e16a6a9",
+        "android_client_info": {
+          "package_name": "com.mansi.ecoscope_frontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6M1rex6CAgHfM5POWhb4ib_6Jx0Xb2oE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
