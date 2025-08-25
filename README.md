@@ -36,4 +36,4 @@ Tech Stack
 
 ---
 Presentation
-ppt (https://drive.google.com/file/d/1kwSc3-zMp8GVF0r0gMhg_I4-vo5Iofj9/view?usp=sharing)
+ppt (https://drive.google.com/file/d/1KLjq0g3Q_RUeXiC-HPufiFDegDcBh4Cf/view?usp=sharing)
